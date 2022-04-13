@@ -1,0 +1,75 @@
+<div class="container main-container">
+    <h4>Excluir {{ receita.nome }} </h4>
+    <br>
+    <h5>Você tem certeza disso?</h5>
+
+    <div class="row">
+        <div class="col-md-4">
+            <img src="{{ imagens }}{{ receita.imagem }}" style="width: 300px; height: 428px">
+        </div>
+        <div class="col-md-6">
+            <dl>
+                <dt>
+                    Restaurante
+                </dt>
+                <dd>
+                    {{ receita.nomeRestaurante }}
+                </dd>
+                <dt>
+                    Nome
+                </dt>
+                <dd>
+                    {{ receita.nome }}
+                </dd>
+                <dt>
+                    Descrição
+                </dt>
+                <dd>
+                    {{ receita.descricao }}
+                </dd>
+                <dt>
+                  Ingredientes
+                </dt>
+                <dd>
+                  {{ receita.ingrediente }}
+                </dd>
+                <dt>
+                  Modo de Preparo
+                </dt>
+                <dd>
+                  {{ receita.modoPreparo }}
+                </dd>
+                <dt>
+                  Tags
+                </dt>
+                <dd>
+                  {{ receita.tag }}
+                </dd>
+                <dt>
+                    Valor
+                </dt>
+                <dd>
+                    {{ receita.valor }}
+                </dd>
+                <dt>
+                    DataCadastro
+                </dt>
+                <dd>
+                    {{ receita.dataCadastro | date:'dd/MM/yyyy' }}
+                </dd>
+                <dt>
+                    Ativo?
+                </dt>
+                <dd>
+                    <input [checked]="receita.ativo" class="check-box" disabled="disabled" type="checkbox">
+                </dd>
+            </dl>
+
+            <div>
+                <a (click)="excluirReceita()" href="javascript:void(0)" class="btn btn-danger">Excluir</a>&nbsp;
+                <a class="btn btn-info" href="javascript:window.history.back();">Voltar</a>
+            </div>
+        </div>
+    </div>
+
+</div>

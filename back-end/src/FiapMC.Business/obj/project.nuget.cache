@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "MX81YtfuzJLxtV60iZctTo45NQk4ic1W97pTVhePsxOzBa1/l+6utiCPpx6a9owT2ntw0kB+uQ8GLK5TrTjaeA==",
+  "success": true,
+  "projectFilePath": "G:\\Estudo\\FIAP\\Pos-Graduação\\Disciplinas\\DESENVOLVIMENTO WEB\\Projetos\\2-ProjetoFiapMC\\back-end\\src\\FiapMC.Business\\FiapMC.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Medina\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\Medina\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}

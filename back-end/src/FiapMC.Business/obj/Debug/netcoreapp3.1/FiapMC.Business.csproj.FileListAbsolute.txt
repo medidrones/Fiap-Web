@@ -1,0 +1,10 @@
+G:\Estudo\FIAP\Pos-Graduação\Disciplinas\DESENVOLVIMENTO WEB\Projetos\2-ProjetoFiapMC\back-end\src\FiapMC.Business\bin\Debug\netcoreapp3.1\FiapMC.Business.deps.json
+G:\Estudo\FIAP\Pos-Graduação\Disciplinas\DESENVOLVIMENTO WEB\Projetos\2-ProjetoFiapMC\back-end\src\FiapMC.Business\bin\Debug\netcoreapp3.1\FiapMC.Business.dll
+G:\Estudo\FIAP\Pos-Graduação\Disciplinas\DESENVOLVIMENTO WEB\Projetos\2-ProjetoFiapMC\back-end\src\FiapMC.Business\bin\Debug\netcoreapp3.1\FiapMC.Business.pdb
+G:\Estudo\FIAP\Pos-Graduação\Disciplinas\DESENVOLVIMENTO WEB\Projetos\2-ProjetoFiapMC\back-end\src\FiapMC.Business\obj\Debug\netcoreapp3.1\FiapMC.Business.GeneratedMSBuildEditorConfig.editorconfig
+G:\Estudo\FIAP\Pos-Graduação\Disciplinas\DESENVOLVIMENTO WEB\Projetos\2-ProjetoFiapMC\back-end\src\FiapMC.Business\obj\Debug\netcoreapp3.1\FiapMC.Business.AssemblyInfoInputs.cache
+G:\Estudo\FIAP\Pos-Graduação\Disciplinas\DESENVOLVIMENTO WEB\Projetos\2-ProjetoFiapMC\back-end\src\FiapMC.Business\obj\Debug\netcoreapp3.1\FiapMC.Business.AssemblyInfo.cs
+G:\Estudo\FIAP\Pos-Graduação\Disciplinas\DESENVOLVIMENTO WEB\Projetos\2-ProjetoFiapMC\back-end\src\FiapMC.Business\obj\Debug\netcoreapp3.1\FiapMC.Business.csproj.CoreCompileInputs.cache
+G:\Estudo\FIAP\Pos-Graduação\Disciplinas\DESENVOLVIMENTO WEB\Projetos\2-ProjetoFiapMC\back-end\src\FiapMC.Business\obj\Debug\netcoreapp3.1\FiapMC.Business.dll
+G:\Estudo\FIAP\Pos-Graduação\Disciplinas\DESENVOLVIMENTO WEB\Projetos\2-ProjetoFiapMC\back-end\src\FiapMC.Business\obj\Debug\netcoreapp3.1\FiapMC.Business.pdb
+G:\Estudo\FIAP\Pos-Graduação\Disciplinas\DESENVOLVIMENTO WEB\Projetos\2-ProjetoFiapMC\back-end\src\FiapMC.Business\obj\Debug\netcoreapp3.1\FiapMC.Business.csproj.AssemblyReference.cache

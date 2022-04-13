@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\Estudo\\FIAP\\Pos-Graduação\\Disciplinas\\DESENVOLVIMENTO WEB\\Projetos\\2-ProjetoFiapMC\\back-end\\src\\FiapMC.Data\\FiapMC.Data.csproj": {}
+  },
+  "projects": {
+    "G:\\Estudo\\FIAP\\Pos-Graduação\\Disciplinas\\DESENVOLVIMENTO WEB\\Projetos\\2-ProjetoFiapMC\\back-end\\src\\FiapMC.Business\\FiapMC.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Estudo\\FIAP\\Pos-Graduação\\Disciplinas\\DESENVOLVIMENTO WEB\\Projetos\\2-ProjetoFiapMC\\back-end\\src\\FiapMC.Business\\FiapMC.Business.csproj",
+        "projectName": "FiapMC.Business",
+        "projectPath": "G:\\Estudo\\FIAP\\Pos-Graduação\\Disciplinas\\DESENVOLVIMENTO WEB\\Projetos\\2-ProjetoFiapMC\\back-end\\src\\FiapMC.Business\\FiapMC.Business.csproj",
+        "packagesPath": "C:\\Users\\Medina\\.nuget\\packages\\",
+        "outputPath": "G:\\Estudo\\FIAP\\Pos-Graduação\\Disciplinas\\DESENVOLVIMENTO WEB\\Projetos\\2-ProjetoFiapMC\\back-end\\src\\FiapMC.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Medina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://artifactory.softplan.com.br/artifactory/api/nuget/v3/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Estudo\\FIAP\\Pos-Graduação\\Disciplinas\\DESENVOLVIMENTO WEB\\Projetos\\2-ProjetoFiapMC\\back-end\\src\\FiapMC.Data\\FiapMC.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Estudo\\FIAP\\Pos-Graduação\\Disciplinas\\DESENVOLVIMENTO WEB\\Projetos\\2-ProjetoFiapMC\\back-end\\src\\FiapMC.Data\\FiapMC.Data.csproj",
+        "projectName": "FiapMC.Data",
+        "projectPath": "G:\\Estudo\\FIAP\\Pos-Graduação\\Disciplinas\\DESENVOLVIMENTO WEB\\Projetos\\2-ProjetoFiapMC\\back-end\\src\\FiapMC.Data\\FiapMC.Data.csproj",
+        "packagesPath": "C:\\Users\\Medina\\.nuget\\packages\\",
+        "outputPath": "G:\\Estudo\\FIAP\\Pos-Graduação\\Disciplinas\\DESENVOLVIMENTO WEB\\Projetos\\2-ProjetoFiapMC\\back-end\\src\\FiapMC.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Medina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://artifactory.softplan.com.br/artifactory/api/nuget/v3/nuget-local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "G:\\Estudo\\FIAP\\Pos-Graduação\\Disciplinas\\DESENVOLVIMENTO WEB\\Projetos\\2-ProjetoFiapMC\\back-end\\src\\FiapMC.Business\\FiapMC.Business.csproj": {
+                "projectPath": "G:\\Estudo\\FIAP\\Pos-Graduação\\Disciplinas\\DESENVOLVIMENTO WEB\\Projetos\\2-ProjetoFiapMC\\back-end\\src\\FiapMC.Business\\FiapMC.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

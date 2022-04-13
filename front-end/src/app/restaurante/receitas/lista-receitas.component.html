@@ -1,0 +1,55 @@
+<hr>
+<h4>Receitas</h4>
+
+<table class="table table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+
+            </th>
+            <th>
+                Nome
+            </th>
+            <th>
+                Restaurante
+            </th>
+            <th>
+                Valor
+            </th>
+            <th>
+                Ativo?
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let receita of receitas">
+            <td>
+                <img src="{{ imagens }}{{ receita.imagem }}" style="width: 70px; height: 100px">
+            </td>
+            <td>
+                {{ receita.nome }}
+            </td>
+            <td>
+                {{ receita.nomeRestaurante }}
+            </td>
+            <td>
+                {{ receita.valor }}
+            </td>
+            <td>
+                <input [checked]="receita.ativo" class="check-box" disabled="disabled" type="checkbox">
+            </td>
+            <td class="text-right">
+                <a class="btn btn-warning" [routerLink]="['/receitas/detalhes',receita.id]">
+                    <span class="fa fa-search"></span>
+                </a>&nbsp;
+                <a class="btn btn-info" [routerLink]="['/receitas/editar',receita.id]">
+                    <span class="fa fa-pencil-alt"></span>
+                </a>&nbsp;
+                <a class="btn btn-danger" [routerLink]="['/receitas/excluir',receita.id]">
+                    <span class="fa fa-trash"></span>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
