@@ -25,7 +25,7 @@ export class ErrorInterceptor implements HttpInterceptor {
                     this.router.navigate(['/conta/login'], { queryParams: { returnUrl: this.router.url }});
                 }
                 if (error.status === 403) {
-                    
+
                     this.router.navigate(['/acesso-negado']);
                 }
             }
@@ -33,8 +33,5 @@ export class ErrorInterceptor implements HttpInterceptor {
 
             return throwError(error);
         }));
-
-        
     }
-   
 }

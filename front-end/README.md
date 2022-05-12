@@ -1,3 +1,7 @@
+# Alunos
+- RM: 343223 - Jorge Antonio Gonçalves Medina
+- RM: 342827 - Henrique Lopes Mendonça
+
 # FrontEnd
 
 Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
