@@ -4,7 +4,9 @@ import { LocalStorageUtils } from 'src/app/utils/localstorage';
 
 @Component({
   selector: 'app-menu-login',
+  styleUrls: ['./menu-login.component.css'],
   templateUrl: './menu-login.component.html'
+  
 })
 export class MenuLoginComponent {
 

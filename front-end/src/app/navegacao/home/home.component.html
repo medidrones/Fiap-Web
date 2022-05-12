@@ -1,72 +1,35 @@
-<!-- Page Content -->
-<header class="bg-primary py-5 mb-5">
+<header class="section-header py-5 mb-5">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
-            <div class="col-lg-2">
-                <img src="https://angular.io/assets/images/logos/angular/angular.svg" />
-            </div>
             <div class="col-lg-10">
-                <h1 class="display-5 text-white mt-5 mb-2">Projeto Master Chef</h1>
-                <p class="lead mb-5 text-white">MBA FIAP - Desenvolvimento WEB</p>
+                <h1 class="display-5 text-dark-01 mt-5 mb-2">Projeto Master Chef</h1>
+                <p class="lead mb-5 text-dark-02">MBA FIAP - Desenvolvimento WEB</p>
             </div>
         </div>
     </div>
 </header>
 
 <div class="container main-container">
-    <div class="row text-center">
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card h-100">
-                <img class="card-img-top" src="/assets/peixe.jpg" height="164px" width="253px" alt="">
+    <div class="restaurantes" *ngFor="let restaurante of restaurantes">
+        <h3 class="restaurante-name">{{restaurante.nome}}</h3>
+        <p class="restaurante-category">{{restaurante.categoria}}</p> 
+    <div class="row text-center" >
+        <div class="col-lg-3 col-md-6 mb-4" *ngFor="let receita of restaurante.receitas">
+            <div class="card recipe">
+                <a href="{{'receita/detalhes' + receita.id}}" target="_blank">
+                    <img class="card-img-top" src={{receita.imagem}} height="164px" width="253px" alt="">
+                    <div class="expand">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                          </svg>  
+                    </div>
                 <div class="card-body">
-                    <h4 class="card-title">Por que se come peixe na Sexta-feira Santa?</h4>
-                    <p class="card-text">É costume comer peixe na sexta-feira que antecede a Páscoa, mas você sabe o motivo? Veja mais sobre a tradição e confira receitas com peixe para fazer no feriado.</p>
+                    <p class="card-text">{{receita.descricao}}</p>
                 </div>
-                <div class="card-footer">
-                    <a href="https://blog.tudogostoso.com.br/cardapios/receitas-com-peixe-na-sexta-feira-santa-entenda-tradicao-e-veja-pratos-deliciosos-para-fazer/" target="_blank" class="btn btn-primary">Saiba mais</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card h-100">
-                <img class="card-img-top" src="/assets/cuscuz.jpg" height="164px" width="253px" alt="">
-                <div class="card-body">
-                    <h4 class="card-title">Tem como fazer cuscuz sem cuscuzeira?</h4>
-                    <p class="card-text">Cuscuz marroquino, nordestino, paulista. Não importa qual o seu favorito, você pode preparar na sua casa com utensílios que tem na cozinha, sem precisar de uma cuscuzeira.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://blog.tudogostoso.com.br/cardapios/receitas-salgadas/cuscuz-sem-cuscuzeira-truques-para-fazer-cuscuz-na-panela-de-pressao-no-micro-ondas-e-mais/" target="_blank" class="btn btn-primary">Saiba mais</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card h-100">
-                <img class="card-img-top" src="/assets/torta.jpg" height="164px" width="253px" alt="">
-                <div class="card-body">
-                    <h4 class="card-title">Como fazer massa de torta de liquidificador?</h4>
-                    <p class="card-text">A torta de liquidificador é uma opção de prato para recheios doces e salgados. Confira com o TudoGostoso como prepará-la!</p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://blog.tudogostoso.com.br/cardapios/receitas-salgadas/aprenda-como-preparar-torta-de-liquidificador-veja-receitas-e-dicas/" target="_blank" class="btn btn-primary">Saiba mais</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card h-100">
-                <img class="card-img-top" src="/assets/drink.jpg" height="164px" width="253px" alt="">
-                <div class="card-body">
-                    <h4 class="card-title">Como fazer drink sem álcool?</h4>
-                    <p class="card-text">Precisando pegar leve? Não tá podendo beber, mas quer participar das festas e confraternizações? Então o drink sem álcool é a alternativa ideal para você.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://blog.tudogostoso.com.br/dicas-de-cozinha/como-fazer/veja-como-fazer-drinks-sem-alcool-em-receitas-surpreendentes/" target="_blank" class="btn btn-primary">Saiba mais</a>
-                </div>
+                </a>
             </div>
         </div>
     </div>
+    </div>
 </div>
-<!-- Fim Content -->
+

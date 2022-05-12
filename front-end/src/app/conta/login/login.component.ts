@@ -9,7 +9,6 @@ import { Usuario } from '../models/usuario';
 import { ContaService } from '../services/conta.service';
 import { FormBaseComponent } from 'src/app/base-components/form-base.component';
 
-
 @Component({
 selector: 'app-login',
 templateUrl: './login.component.html'

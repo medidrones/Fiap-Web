@@ -1,0 +1,23 @@
+
+.title{
+    position: relative;
+    display: block;
+    font-size: 25px;
+    border-bottom: 1px solid #de9f78;
+    padding: 10px;
+}
+.title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -20px;
+    border-radius: 20px;
+    background-color: #de9f78;
+    width: 10px;
+    height: 10px;
+  }
+
+  .table-header th{
+      font-size: 12px;
+  }

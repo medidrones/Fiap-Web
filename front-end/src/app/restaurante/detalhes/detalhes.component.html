@@ -32,8 +32,10 @@
 
     <lista-receita [receitas]="restaurante.receitas"></lista-receita>
 
-    <div>
-        <a class="btn btn-dark" [routerLink]="['/restaurantes/editar',restaurante.id]">Editar</a>&nbsp;
-        <a class="btn btn-info" [routerLink]="['/restaurantes/listar-todos']">Voltar</a>
+    <div class="row">
+    <div class="col-md-6">
+        <a class="btn-padrao" [routerLink]="['/restaurantes/editar',restaurante.id]">Editar</a>&nbsp;
+        <a class="btn-back" [routerLink]="['/restaurantes/listar-todos']">Voltar</a>
+    </div>
     </div>
 </div>

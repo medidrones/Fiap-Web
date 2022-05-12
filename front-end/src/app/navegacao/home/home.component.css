@@ -1,0 +1,75 @@
+.section-header{
+    background-color: rgb(245, 245, 245);
+}
+.text-dark-01{
+    color: rgb(209, 143, 81);
+}
+.text-dark-02{
+    color: rgb(20, 20, 20);
+    font-size: 16px;
+}
+.recipe .card-body{
+    opacity: 0;
+    height: 0px;
+    transition: 0.5s ease-in-out; 
+}
+.recipe:hover .card-body{
+    opacity: 1;
+    height: 200px;
+}
+.expand{
+ color: #de9f78 !important;
+ position: absolute;
+ left: 50%;
+ margin-top: 8px;
+ opacity: 1;
+ transition: 0.5s ease-in-out; 
+}
+.recipe:hover .expand{
+    opacity: 0;
+}
+.recipe a{
+    color: rgb(124, 124, 124);
+    font-size: 14px;
+}
+.restaurante-name{
+    position: relative;
+    display: block;
+    font-size: 25px;
+    border-bottom: 1px solid #de9f78;
+    padding: 10px;
+}
+.restaurante-name::before {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -20px;
+    border-radius: 20px;
+    background-color: #de9f78;
+    width: 10px;
+    height: 10px;
+  }
+.restaurante-category{
+    font-size: 12px;
+     color:  #8a5b3d;
+     float: right;
+     padding-left: 10px;
+    
+}
+
+.restaurante-category::before {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -20px;
+    
+    background-color: #de9f78;
+    width: 15px;
+    height: 5px;
+  }
+
+  .icon-list{
+    color: #de9f78;
+  }

@@ -27,7 +27,7 @@
                 <div class="form-group">
                     <label class="control-label">Nome</label>
                     <div>
-                        <input class="form-control" id="nome" type="text" placeholder="Nome (requerido)" formControlName="nome" [ngClass]="{'is-invalid': displayMessage.nome }" />
+                        <input class="form-text" id="nome" type="text" placeholder="Nome (requerido)" formControlName="nome" [ngClass]="{'is-invalid': displayMessage.nome }" />
                         <span class="text-danger" *ngIf="displayMessage.nome">
                             <p [innerHTML]="displayMessage.nome"></p>
                         </span>
@@ -37,7 +37,7 @@
                 <div class="form-group">
                     <label class="control-label">Descrição</label>
                     <div>
-                        <textarea cols="40" rows="5" maxlength="1000" class="form-control" id="descricao" placeholder="Descrição (requerido)" formControlName="descricao" [ngClass]="{'is-invalid': displayMessage.descricao }"></textarea>
+                        <textarea cols="40" rows="5" maxlength="1000" class="form-text-area" id="descricao" placeholder="Descrição (requerido)" formControlName="descricao" [ngClass]="{'is-invalid': displayMessage.descricao }"></textarea>
                         <span class="text-danger" *ngIf="displayMessage.descricao">
                             <p [innerHTML]="displayMessage.descricao"></p>
                         </span>
@@ -47,7 +47,7 @@
               <div class="form-group">
                 <label class="control-label">Ingredientes</label>
                 <div>
-                  <textarea cols="40" rows="5" maxlength="1000" class="form-control" id="ingrediente" placeholder="Ingredientes (requerido)" formControlName="ingrediente" [ngClass]="{'is-invalid': displayMessage.ingrediente }"></textarea>
+                  <textarea cols="40" rows="5" maxlength="1000" class="form-text-area" id="ingrediente" placeholder="Ingredientes (requerido)" formControlName="ingrediente" [ngClass]="{'is-invalid': displayMessage.ingrediente }"></textarea>
                   <span class="text-danger" *ngIf="displayMessage.ingrediente">
                             <p [innerHTML]="displayMessage.ingrediente"></p>
                         </span>
@@ -57,7 +57,7 @@
               <div class="form-group">
                 <label class="control-label">Modo de Preparo</label>
                 <div>
-                  <textarea cols="40" rows="5" maxlength="1000" class="form-control" id="modoPreparo" placeholder="Modo de Preparo (requerido)" formControlName="modoPreparo" [ngClass]="{'is-invalid': displayMessage.modoPreparo }"></textarea>
+                  <textarea cols="40" rows="5" maxlength="1000" class="form-text-area" id="modoPreparo" placeholder="Modo de Preparo (requerido)" formControlName="modoPreparo" [ngClass]="{'is-invalid': displayMessage.modoPreparo }"></textarea>
                   <span class="text-danger" *ngIf="displayMessage.modoPreparo">
                             <p [innerHTML]="displayMessage.modoPreparo"></p>
                         </span>
@@ -67,7 +67,7 @@
               <div class="form-group">
                 <label class="control-label">Tags</label>
                 <div>
-                  <textarea cols="40" rows="5" maxlength="1000" class="form-control" id="tag" placeholder="Tags (requerido)" formControlName="tag" [ngClass]="{'is-invalid': displayMessage.tag }"></textarea>
+                  <textarea cols="40" rows="5" maxlength="1000" class="form-text-area" id="tag" placeholder="Tags (requerido)" formControlName="tag" [ngClass]="{'is-invalid': displayMessage.tag }"></textarea>
                   <span class="text-danger" *ngIf="displayMessage.tag">
                             <p [innerHTML]="displayMessage.tag"></p>
                         </span>
@@ -98,7 +98,7 @@
                 <div class="form-group">
                     <label class="control-label">Valor</label>
                     <div>
-                        <input class="form-control" id="valor" type="text" placeholder="Valor (requerido)" formControlName="valor" [ngClass]="{'is-invalid': displayMessage.valor }" />
+                        <input class="form-text" id="valor" type="text" placeholder="Valor (requerido)" formControlName="valor" [ngClass]="{'is-invalid': displayMessage.valor }" />
                         <span class="text-danger" *ngIf="displayMessage.valor">
                             <p [innerHTML]="displayMessage.valor"></p>
                         </span>
@@ -112,8 +112,8 @@
                 </div>
 
                 <div class="form-group">
-                    <input type="submit" [disabled]="!receitaForm.valid" value="Editar" class="btn btn-primary">&nbsp;
-                    <a class="btn btn-info" href="/receitas/listar-todos">Voltar</a>
+                    <input type="submit" [disabled]="!receitaForm.valid" value="Editar" class="btn-padrao">&nbsp;
+                    <a class="btn-back" href="/receitas/listar-todos">Voltar</a>
                 </div>
             </form>
         </div>

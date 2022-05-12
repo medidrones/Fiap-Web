@@ -65,9 +65,11 @@
                 </dd>
             </dl>
 
-            <div>
-                <a class="btn btn-warning" [routerLink]="['/receitas/editar',receita.id]">Editar</a>&nbsp;
-                <a class="btn btn-info" href="javascript:window.history.back();">Voltar</a>
+            <div class="row">
+                <div class="col-md-6">
+                    <a class="btn-padrao" [routerLink]="['/receitas/editar',receita.id]">Editar</a>&nbsp;
+                    <a class="btn-back" href="javascript:window.history.back();">Voltar</a>
+                </div>
             </div>
         </div>
     </div>

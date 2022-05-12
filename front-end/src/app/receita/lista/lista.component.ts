@@ -4,6 +4,7 @@ import { ReceitaService } from '../services/receita.service';
 import { environment } from 'src/environments/environment';
 
 @Component({
+  styleUrls: ['./lista.component.css'],
   selector: 'app-lista',
   templateUrl: './lista.component.html'
 })

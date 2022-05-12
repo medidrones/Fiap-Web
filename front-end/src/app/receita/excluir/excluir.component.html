@@ -64,10 +64,11 @@
                     <input [checked]="receita.ativo" class="check-box" disabled="disabled" type="checkbox">
                 </dd>
             </dl>
-
-            <div>
-                <a (click)="excluirReceita()" href="javascript:void(0)" class="btn btn-danger">Excluir</a>&nbsp;
-                <a class="btn btn-info" href="javascript:window.history.back();">Voltar</a>
+            <div class="row">
+                <div class="col-md-6">
+                <a (click)="excluirReceita()" href="javascript:void(0)" class="btn-padrao">Excluir</a>&nbsp;
+                <a class="btn-back" href="javascript:window.history.back();">Voltar</a>
+            </div>
             </div>
         </div>
     </div>

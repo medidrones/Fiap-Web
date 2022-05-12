@@ -4,7 +4,8 @@ import { Restaurante } from '../models/restaurante';
 
 @Component({
   selector: 'app-lista',
-  templateUrl: './lista.component.html'
+  templateUrl: './lista.component.html',
+  styleUrls: ['./lista.component.css']
 })
 export class ListaComponent implements OnInit {
 
@@ -14,7 +15,7 @@ export class ListaComponent implements OnInit {
   constructor(private restauranteService: RestauranteService) { }
 
   ngOnInit(): void {
-    this.restauranteService.obterTodos()
+     this.restauranteService.obterTodos()
       .subscribe(
         restaurantes => this.restaurantes = restaurantes,
         error => this.errorMessage);

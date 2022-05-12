@@ -76,3 +76,95 @@ file,
 textarea {
     max-width: 400px;
 }
+
+.form-text{
+    padding: 6px;
+    width: 100%;
+    max-width: none;
+    border: none;
+    border-bottom: 1px  solid #de9f78 ;
+    color: #de9f78;
+    transition: ease-in-out .4s;
+}
+
+.form-text:focus{
+    outline: none;
+    border-bottom: 2px  solid #aa795b ;
+}
+
+
+.form-text-area{
+    padding: 6px;
+    width: 100%;
+    max-width: none;
+    border: 1px  solid #de9f78 ;
+    color: #de9f78;
+    transition: ease-in-out .4s;
+}
+
+.form-text-area:focus{
+    outline: none;
+    border: 2px  solid #aa795b ;
+}
+
+.btn-padrao{
+    display: block;
+    position: inherit;
+    border: 2px solid #de9f78;
+    color: #de9f78;
+    padding: 6px;
+    width: 100px;
+    text-align: center;
+    transition: ease-in .3s;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-padrao:hover{
+    background-color: #de9f78;
+    color: white;
+}
+
+.btn-padrao:focus{
+    outline: none;
+}
+
+.btn-back{
+    display: block;
+    position: inherit;
+    border: 2px solid #3d3d3d;
+    color: #3d3d3d;
+    padding: 6px;
+    width: 100px;
+    text-align: center;
+    transition: ease-in .3s;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-back:hover{
+    background-color: #3d3d3d;
+    color: white;
+}
+
+.btn-back:focus{
+    outline: none;
+}
+
+
+.erro-message{
+    width: 100%;
+    background-color: rgba(255, 212, 212, 0.178);
+    font-size: 13px;
+    color:rgb(0, 0, 0);
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+
+.erro-message ul{
+    list-style-type: none;
+    text-align: center;
+    }
